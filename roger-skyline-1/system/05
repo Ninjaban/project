@@ -1,0 +1,18 @@
+● ssh.service - OpenBSD Secure Shell server
+   Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+   Active: active (running) since Fri 2016-10-21 05:22:30 EDT; 3 days ago
+ Main PID: 436 (sshd)
+    Tasks: 1 (limit: 4915)
+   CGroup: /system.slice/ssh.service
+           └─436 /usr/sbin/sshd -D
+
+Oct 21 05:22:30 debian sshd[436]: Server listening on 0.0.0.0 port 22.
+Oct 21 05:22:30 debian sshd[436]: Server listening on :: port 22.
+Oct 21 05:22:30 debian systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct 24 04:29:15 debian systemd[1]: Reloading OpenBSD Secure Shell server.
+Oct 24 04:29:15 debian systemd[1]: Reloaded OpenBSD Secure Shell server.
+Oct 24 04:29:15 debian sshd[436]: Received SIGHUP; restarting.
+Oct 24 04:29:15 debian sshd[436]: Server listening on 0.0.0.0 port 22.
+Oct 24 04:29:15 debian sshd[436]: Server listening on :: port 22.
+Oct 24 04:44:07 debian sshd[11980]: Accepted password for mmarchan from 172.16.127.1 port 54972 ssh2
+Oct 24 04:44:07 debian sshd[11980]: pam_unix(sshd:session): session opened for user mmarchan by (uid=0)

@@ -1,0 +1,7 @@
+traceroute 10.51.1.253 donne le trajet jusqu'à l'adresse ip indiquée.
+Résultat:
+traceroute to 10.51.1.253 (10.51.1.253), 64 hops max, 52 byte packets
+ 1  10.13.254.254 (10.13.254.254)  11.170 ms  2.866 ms  0.944 ms
+ 2  dhcp (10.51.1.253)  0.273 ms  0.237 ms  0.289 ms
+
+La seconde et dernière ligne nous indique le type de serveur. Ici "dhcp".
